@@ -1,0 +1,85 @@
+SEN {Time 42.9771} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 42.98} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 42.98} {LightToggle False} {LightIntensity 0} {Battery 1182} {View -1}
+SEN {Time 43.1771} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,6.28,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 43.18} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 43.18} {LightToggle False} {LightIntensity 0} {Battery 1181} {View -1}
+Received: SEN {Time 43.3761} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 43.38} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 43.38} {LightToggle False} {LightIntensity 0} {Battery 1181} {View -1}
+SEN {Time 43.5771} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 43.58} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 43.58} {LightToggle False} {LightIntensity 0} {Battery 1181} {View -1}
+Received: SEN {Time 43.7761} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 43.78} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 43.78} {LightToggle False} {LightIntensity 0} {Battery 1181} {View -1}
+SEN {Time 43.9790} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 43.98} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 43.98} {LightToggle False} {LightIntensity 0} {Battery 1181} {View -1}
+SEN {Time 44.1770} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 44.18} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 44.18} {LightToggle False} {LightIntensitReceived: SEN {Time 44.3780} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 44.38} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 44.38} {LightToggle False} {LightIntensity 0} {Battery 1180} {View -1}
+SEN {Time 44.5790} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,6.28,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 44.58} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 44.58} {LightToggle False} {LightIntensity 0} {Battery 1180} {View -1}
+Received: SEN {Time 44.7799} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,6.28,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 44.78} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 44.78} {LightToggle False} {LightIntensity 0} {Battery 1180} {View -1}
+SEN {Time 44.9799} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 44.98} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 44.98} {LightToggle False} {LightIntensity 0} {Battery 1180} {View -1}
+SEN {Time 45.1779} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 45.18} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 45.18} {LightToggle False} {LightIntensitReceived: SEN {Time 45.3789} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 45.38} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 45.38} {LightToggle False} {LightIntensity 0} {Battery 1179} {View -1}
+SEN {Time 45.5779} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 45.58} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 45.58} {LightToggle False} {LightIntensity 0} {Battery 1179} {View -1}
+Received: SEN {Time 45.7788} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 45.78} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 45.78} {LightToggle False} {LightIntensity 0} {Battery 1179} {View -1}
+SEN {Time 45.9808} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 45.98} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 45.98} {LightToggle False} {LightIntensity 0} {Battery 1179} {View -1}
+SEN {Time 46.1798} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,6.28,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 46.18} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 46.18} {LightToggle False} {LightIntensitReceived: SEN {Time 46.3788} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 46.38} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 46.38} {LightToggle False} {LightIntensity 0} {Battery 1178} {View -1}
+SEN {Time 46.5768} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 46.58} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 46.58} {LightToggle False} {LightIntensity 0} {Battery 1178} {View -1}
+Received: SEN {Time 46.7768} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 6.28,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 46.78} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 46.78} {LightToggle False} {LightIntensity 0} {Battery 1178} {View -1}
+SEN {Time 46.9767} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 46.98} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 46.98} {LightToggle False} {LightIntensity 0} {Battery 1178} {View -1}
+SEN {Time 47.1767} {Type GroundTruth} {Name GroundTruth} {Location 1.20,2.50,2.05} {Orientation 0.00,0.00,0.00}
+SEN {Type GPS} {Name GPS} {Fix 0} {Satellites 0}
+MISSTA {Time 47.18} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 47.18} {LightToggle False} {LightIntensitThe thread 'Win32 Thread' (0x11c8) has exited with code 0 (0x0).
