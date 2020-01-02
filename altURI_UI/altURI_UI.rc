@@ -1,0 +1,390 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 295, 182
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_3DLOOK | DS_FIXEDSYS | DS_CONTROL | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_PALETTEWINDOW
+CAPTION "About altURI UI..."
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "altURI_UI, v2.1 (June 2013)",IDC_STATIC,147,12,98,8,SS_NOPREFIX
+    LTEXT           "Copyright ©  Mark N R Smith  and contributors",IDC_STATIC,124,41,155,10
+    DEFPUSHBUTTON   "OK",IDOK,120,161,50,14,WS_GROUP
+    EDITTEXT        IDC_EDIT_COPYRIGHT1,7,105,281,48,ES_MULTILINE | ES_READONLY | WS_VSCROLL | WS_HSCROLL | NOT WS_TABSTOP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "University of Lincoln, Lincoln, UK",IDC_STATIC,141,68,103,11
+    LTEXT           "Robot middleware for simulators & real robots",IDC_STATIC,126,27,150,8,SS_NOPREFIX
+    LTEXT           "Centre for Vision and Robotics Reseach",IDC_STATIC,132,55,129,11
+    CONTROL         151,IDC_STATIC,"Static",SS_BITMAP,7,0,107,100,WS_EX_TRANSPARENT
+END
+
+IDD_MAIN_DIALOG DIALOGEX 0, 0, 445, 284
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "altURI Interface Test Harness"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_OCVG_IMAGE,12,13,269,213,SS_SUNKEN | NOT WS_GROUP
+    CONTROL         "Simulator",IDC_RADIO_SIM,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,304,49,45,10
+    PUSHBUTTON      "Inject",IDC_BUTTON_INJECT,350,47,35,13,BS_MULTILINE
+    CONTROL         "Real",IDC_RADIO_REAL,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,304,25,28,10
+    COMBOBOX        IDC_COMBO_ROBOTDLL,337,23,94,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_FORWARD,332,126,21,20,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_LEFT,304,147,27,14,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_RIGHT,354,147,27,14,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_BACK,332,162,21,20,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_UP,385,126,21,20,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_DOWN,385,150,21,20,BS_ICON
+    PUSHBUTTON      "Connect",IDC_BUTTON_CONNECT,300,82,47,13,BS_MULTILINE
+    PUSHBUTTON      "Save AVI",IDC_BUTTON_RECORD,12,251,44,14
+    COMBOBOX        IDC_COMBO_FRAME_RATE,137,251,48,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Play",IDC_BUTTON_VIEW,245,250,36,15
+    DEFPUSHBUTTON   "Exit",ID_BUTTON_EXIT,388,251,50,14
+    GROUPBOX        "Robot Controls",IDC_FRAME_ROBOT_CONTROLS,293,116,145,115
+    GROUPBOX        "Environment",IDC_FRAME_ROBOT_SOURCE,293,3,145,67
+    LTEXT           "Robot DLL:",IDC_TEXT_ROBOTDLL,338,14,41,8,NOT WS_GROUP
+    GROUPBOX        "Image",IDC_FRAME_IMAGE,7,3,279,228
+    GROUPBOX        "Image Controls",IDC_FRAME_IMAGE_CONTROLS,7,235,279,40
+    GROUPBOX        "Connection",IDC_FRAME_CONNECTIONS,293,71,145,45
+    LTEXT           "FPS",IDC_TEXT_FRAME_RATE,123,254,12,12
+    PUSHBUTTON      "Commands",IDC_BUTTON_COMMANDS,383,82,47,13,BS_MULTILINE
+    PUSHBUTTON      "Hide",IDC_BUTTON_HIDESIM,395,47,35,13,BS_MULTILINE
+    PUSHBUTTON      " ^",IDC_BUTTON_CAM1,403,172,16,12
+    PUSHBUTTON      " v",IDC_BUTTON_CAM2,403,196,16,12
+    PUSHBUTTON      "<",IDC_BUTTON_CAM3,387,184,16,12
+    PUSHBUTTON      ">",IDC_BUTTON_CAM4,419,184,16,12
+    PUSHBUTTON      "O",IDC_BUTTON_CAM5,403,184,16,12
+    PUSHBUTTON      "ZI",IDC_BUTTON_CAM6,387,203,13,12
+    PUSHBUTTON      "Camera",IDC_BUTTON_VIEWPORT,392,216,35,12,BS_MULTILINE
+    PUSHBUTTON      "Add Robot",IDC_BUTTON_NEWROBOT,300,97,47,13,BS_MULTILINE
+    PUSHBUTTON      "Sensors",IDC_BUTTON_SENSORS,383,97,47,13,BS_MULTILINE
+    PUSHBUTTON      "Stop",IDC_BUTTON_STOP,332,147,21,14
+    PUSHBUTTON      "",IDC_BUTTON_FORWARD_RIGHT,354,126,21,20,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_FORWARD_LEFT,310,126,21,20,BS_ICON
+    LTEXT           "",IDC_TEXT_FPS,192,254,50,12
+    PUSHBUTTON      "ZO",IDC_BUTTON_CAM7,420,203,13,12
+    PUSHBUTTON      "E1",IDC_BUTTON_E1,295,216,17,12
+    PUSHBUTTON      "E2",IDC_BUTTON_E2,313,216,17,12
+    PUSHBUTTON      "E3",IDC_BUTTON_E3,331,216,17,12
+    PUSHBUTTON      "E4",IDC_BUTTON_E4,349,216,17,12
+    PUSHBUTTON      "E5",IDC_BUTTON_E5,367,216,17,12
+    PUSHBUTTON      "Image",IDC_BUTTON_IMAGETYPE,69,251,44,14
+    CONTROL         "Vision\nOnly",IDC_CHECK_VISION_ONLY,"Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,350,76,32,24
+END
+
+IDD_INJECT_DIALOG DIALOGEX 0, 0, 349, 118
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "Start Simulator & Attach to Process"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Attach",IDOK,231,71,50,14
+    PUSHBUTTON      "Exit",IDCANCEL,150,97,50,14
+    LISTBOX         IDC_LIST2,182,17,154,50,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST1,11,17,154,50,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "Start",IDOK3,58,71,50,14
+    GROUPBOX        "Process",IDC_STATIC,179,7,163,83
+    GROUPBOX        "Map",IDC_STATIC,7,7,163,83
+END
+
+IDD_COMMAND_DIALOG DIALOGEX 0, 0, 316, 180
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Close",IDOK,259,160,50,14
+    GROUPBOX        "Send",IDC_STATIC,7,7,302,53
+    GROUPBOX        "Receive",IDC_STATIC,7,81,302,70
+    EDITTEXT        IDC_EDIT1,15,17,288,35,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Send",IDOK2,127,65,50,14
+    EDITTEXT        IDC_EDIT2,15,92,288,55,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    CONTROL         "Unrequested Messages",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,110,156,91,10
+    CONTROL         "Requested Messages",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,156,81,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "altURI test harness"
+            VALUE "CompanyName", "University of Lincoln CVRR"
+            VALUE "FileDescription", "altURI Test Program"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "altURI_UI.exe"
+            VALUE "OriginalFilename", "altURI_UI.exe"
+            VALUE "ProductName", "altURI_UI"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 288
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_MAIN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 438
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+
+    IDD_INJECT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 342
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_COMMAND_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 309
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About altURI_UI..."
+    IDS_COPYRIGHT           "Copyright (c) 2010, Mark N R Smith, All rights reserved."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United Kingdom) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SENSOR_DIALOG DIALOGEX 0, 0, 227, 198
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Robot Sensor Data"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,172,177,50,14
+    LISTBOX         IDC_SENSOR_LIST,7,7,215,133,LBS_SORT | LBS_USETABSTOPS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Catch Sensor Data",IDC_CATCH_SENSOR_CHECK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,150,103,10
+    COMBOBOX        IDC_MESSAGE_COMBO,14,169,131,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_IMAGE_DIALOG DIALOGEX 0, 0, 329, 282
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+CAPTION "altURI Image Setup"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,205,261,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,272,261,50,14
+    GROUPBOX        "Main Image Size and Offsets",IDC_FRAME_IMAGE_CONTROLS,7,15,315,62
+    GROUPBOX        "Image Processing",IDC_FRAME_IMAGE_CONTROLS2,7,85,315,57
+    EDITTEXT        IDC_EDIT_WIDTH,46,42,33,15,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_HEIGHT,116,42,33,15,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_X,195,42,33,15,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_Y,263,42,33,15,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_RIGHT
+    LTEXT           "X offset",IDC_STATIC,168,44,26,13
+    LTEXT           "Width (Columns)",IDC_STATIC,12,40,30,20,0,WS_EX_RIGHT
+    LTEXT           "Height (Rows)",IDC_STATIC,88,40,24,20,0,WS_EX_RIGHT
+    LTEXT           "Y offset",IDC_STATIC,236,44,26,13
+    GROUPBOX        "Partial Image (ROI)",IDC_FRAME_IMAGE_CONTROLS3,159,28,143,42
+    LTEXT           "Note: zero means full image",IDC_STATIC,16,64,111,11
+    COMBOBOX        IDC_COMBO_IMAGETYPE,39,101,237,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Don't Display Image in Image Loop",IDC_CHECK_NO_DISPLAY,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,94,116,126,17
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SENSOR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 191
+    END
+
+    IDD_IMAGE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 322
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 275
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\altURI_UI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\robot_imp.ico"
+IDI_ICON_ARROW_LEFT     ICON                    "res\\arrow_left.ico"
+IDI_ICON_ARROW_RIGHT    ICON                    "res\\arrow_right.ico"
+IDI_ICON_ARROW_BACK     ICON                    "res\\arrow_back.ico"
+IDI_ICON_ARROW_FORWARD  ICON                    "res\\arrow_forward.ico"
+IDI_ICON_ARROW_UP       ICON                    "res\\arrow_up.ico"
+IDI_ICON_ARROW_DOWN     ICON                    "res\\arrow_down.ico"
+IDI_ICON_ARROW_FORWARD_LEFT ICON                    "res\\arrow_left_forward.ico"
+IDI_ICON_ARROW_FORWARD_RIGHT ICON                    "res\\arrow_right_forward.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_LINCREST            BITMAP                  "res\\General Black Portrait small.bmp"
+#endif    // English (United Kingdom) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\altURI_UI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

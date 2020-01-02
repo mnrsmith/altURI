@@ -1,0 +1,28 @@
+
+NFO {Gametype BotDeathMatch} {Level DM-USAR_Plain1} {TimeLimit 0}
+
+GETSTARTPOSES
+
+NFO {StartPoses 1} {PlayerStart 3.70,-0.48,1.86 0.00,0.00,0.00}
+
+
+MISSTA {Time 1486.43} {Name CameraPanTilt} {Link 1} {Value 0.0000} {Torque -20.00}
+STA {Type AerialVehicle} {Time 1486.43} {LightToggle False} {LightIntensity 0} {Battery 1} {View -1}
+SEN {Time 1486.6271} {Type GroundTruth} {Name GroundTruth} {Location 5.01,3.44,-0.33} {Orientation 0.02,6.28,6.15}
+
+
+INIT {ClassName USARBot.AirRobot} {Location 1.2,2.5,1.8}
+
+
+DRIVE {AltitudeVelocity 0.10} {LinearVelocity 0.01} {LateralVelocity 0.00} {RotationalVelocity 0.1} {Normalized False}
+
+
+
+
+INIT {ClassName USARBot.P2AT} {Location 1.2,2.5,1.8}
+DRIVE {Left 1.0} {Right 1.0}
+
+; changes camera to robot named Unnamed_Bot_1 connected from 192.168.10.105
+SET {Type Camera} {Robot Unnamed_Bot_1} {Client 192.168.10.105}
+
+SET {Type Camera} {Client 192.168.10.105}
